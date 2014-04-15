@@ -1,0 +1,9 @@
+1162 -- var htmlString= "<center><div class="+'table-responsive'+"><table id='mytable' class="+'table table-hover'+"><tr><th>Emp ID</th><th>Name</th><th>PC #</th><th>From Date & Time</th><th>To Date & Time</th><th>Action</th></tr></center>";
+
+1187 -- htmlString = htmlString + '<tr id=tr'+doc._id+'><td>'+ doc.id +'</td><td>'+doc.name+'</td><td>'+doc.mc+'</td><td>'+fromDay 
+    + "-"+fromMonth+'-'+ fromYear+'  '+ fromHour + ":"
+    + fromMin+'</td><td>'+toDay + "-"+ toMonth + "-"+ toYear+ '  '+  toHour + ":" 
+    + toMin+'</td><td><button class="btn btn-danger btn-sm btnDelete" data-loading-text="Wait..."'
+    +  'id='+doc._id+'>Cancel</button></td></tr>';
+    
+223 -- <button type="submit" class="btn btn-lg btn-success btn-block " data-loading-text="Signing In..." type = "button" id="sendLogin">Sign In</button>
